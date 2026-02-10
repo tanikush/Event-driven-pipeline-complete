@@ -37,6 +37,8 @@ This project demonstrates a **fully automated event-driven architecture** on AWS
 
 ## 🏗️ Architecture
 
+![Architecture Diagram](architecture-diagram.png)
+
 ### Interactive Architecture Diagram
 
 ```mermaid
