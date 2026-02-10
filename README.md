@@ -39,29 +39,6 @@ This project demonstrates a **fully automated event-driven architecture** on AWS
 
 ![Architecture Diagram](architecture-diagram.png)
 
-### Interactive Architecture Diagram
-
-```mermaid
-graph TB
-    A[👤 User Upload] -->|Upload File| B[📦 S3 Bucket]
-    B -->|Trigger Event| C[⚡ Lambda: Process Data]
-    C -->|Store Data| D[🗄️ DynamoDB Table]
-    D -.->|Read Data| E[⏰ EventBridge]
-    E -->|Daily 9 AM UTC| F[⚡ Lambda: Generate Report]
-    F -->|Query Data| D
-    F -->|Send Report| G[📧 SNS Topic]
-    G -->|Email| H[✉️ User Email]
-    
-    style A fill:#e1f5ff,stroke:#01579b,stroke-width:2px
-    style B fill:#fff3e0,stroke:#e65100,stroke-width:2px
-    style C fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    style D fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px
-    style E fill:#fce4ec,stroke:#880e4f,stroke-width:2px
-    style F fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    style G fill:#e0f2f1,stroke:#004d40,stroke-width:2px
-    style H fill:#fff9c4,stroke:#f57f17,stroke-width:2px
-```
-
 ### Architecture Flow:
 
 ```
