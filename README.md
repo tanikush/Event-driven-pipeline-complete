@@ -39,29 +39,6 @@ This project demonstrates a **fully automated event-driven architecture** on AWS
 
 ![Architecture Diagram](architecture-diagram.png)
 
-### Architecture Flow:
-
-```
-┌─────────┐      ┌─────────┐      ┌──────────────┐      ┌──────────────┐
-│  User   │─────▶│   S3    │─────▶│   Lambda     │─────▶│  DynamoDB    │
-│ Upload  │      │ Bucket  │      │  (Process)   │      │   Table      │
-└─────────┘      └─────────┘      └──────────────┘      └──────────────┘
-                                           │
-                                           │
-                                           ▼
-                 ┌──────────────┐      ┌──────────────┐      ┌─────────┐
-                 │ EventBridge  │─────▶│   Lambda     │─────▶│   SNS   │
-                 │ (Daily 9AM)  │      │  (Report)    │      │  Email  │
-                 └──────────────┘      └──────────────┘      └─────────┘
-```
-
-**Flow:**
-1. User uploads data file to S3 bucket
-2. S3 event triggers Lambda function
-3. Lambda processes data and stores in DynamoDB
-4. EventBridge triggers report Lambda daily at 9 AM UTC
-5. Report Lambda generates summary and sends via SNS
-
 ---
 
 ## ✨ Features
