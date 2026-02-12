@@ -333,7 +333,8 @@ This project is licensed under the MIT License.
 ## 👤 Author
 
 **Tanisha Kushwah**
-- GitHub: [@tanikush](https://github.com/tanikush)
+- [Github](https://github.com/tanikush)
+- [Linkedln](https://www.linkedin.com/in/tanisha-kushwah-280944284/)
 
 ---
 
