@@ -1,4 +1,4 @@
-# 🚀 Event-Driven Data Processing Pipeline
+# Event-Driven Data Processing Pipeline
 
 [![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws)](https://aws.amazon.com/)
 [![Terraform](https://img.shields.io/badge/IaC-Terraform-purple?logo=terraform)](https://www.terraform.io/)
