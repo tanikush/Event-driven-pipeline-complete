@@ -7,6 +7,14 @@
 
 > An automated, serverless data processing pipeline built on AWS that captures incoming data, processes it in real-time, and generates daily summary reports.
 
+## 🏆 Hackathon Submission
+* **Track:** General Track (Track 1) 
+* **Project Name:** CloudFlow: Event-Driven Automation Pipeline
+ — Track 1 
+* **Theme Alignment:** This project automates manual data processing workflows using a serverless cloud architecture, directly reducing operational costs and eliminating human error. 
+* **Presentation File:** [CloudFlow Event-Driven Automation Pipeline.pdf](https://github.com/user-attachments/files/25252206/CloudFlow.Event-Driven.Automation.Pipeline.pdf)
+
+
 ---
 
 ## 📋 Table of Contents
@@ -64,12 +72,6 @@ This project demonstrates a **fully automated event-driven architecture** on AWS
 <img width="1905" height="986" alt="5555" src="https://github.com/user-attachments/assets/8519cfff-b48d-46bd-92af-99790f0ae9e5" />
 
 ---
-
-
-
-
-
-
 
 
 ---
@@ -215,6 +217,16 @@ Event-driven-pipeline-complete/
 ---
 
 ## 🧪 Testing
+
+## 🛠️ Technical Challenges & Solutions
+* **Challenge (Data Integrity):** Raw JSON data can often be inconsistent or malformed, which can crash databases.
+* **Solution:** I implemented a custom validation layer within the AWS Lambda function to verify data structure before it is stored in DynamoDB. 
+* **Challenge (Cost Management):** Small businesses often cannot afford 24/7 active servers.
+* **Solution:** Used an asynchronous, event-driven model that costs $0 to run on the AWS Free Tier when no data is being processed.
+
+
+
+
 
 ### Test Data Processing
 
