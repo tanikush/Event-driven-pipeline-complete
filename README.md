@@ -41,6 +41,39 @@ This project demonstrates a **fully automated event-driven architecture** on AWS
 
 ---
 
+## 🏗️ Lambda
+
+<img width="1916" height="1020" alt="222" src="https://github.com/user-attachments/assets/adbb719b-fe0b-4f34-aeca-5c917125da65" />
+
+---
+
+## 🏗️ Dynamodb
+
+<img width="1080" height="574" alt="333" src="https://github.com/user-attachments/assets/64117f35-7feb-4495-a3b1-04976e7c7aa4" />
+
+---
+
+## 🏗️ S3
+
+![666](https://github.com/user-attachments/assets/ada6bfc8-5ad5-4f15-906e-8bf00beb6c01)
+
+---
+
+## 🏗️ Terraform Vs Code
+
+<img width="1905" height="986" alt="5555" src="https://github.com/user-attachments/assets/8519cfff-b48d-46bd-92af-99790f0ae9e5" />
+
+---
+
+
+
+
+
+
+
+
+---
+
 ## ✨ Features
 
 - 🔄 **Event-Driven**: Automatic processing on file upload
